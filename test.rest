@@ -1,0 +1,14 @@
+POST http://localhost:8000/register
+
+{
+    "name" : "hello",
+    "url": "http://localhost:8000/test"
+}
+
+###
+POST http://localhost:8000/unregister
+
+{
+    "name" : "hello",
+    "url": "http://localhost:8000/test"
+}
